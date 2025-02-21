@@ -1,11 +1,11 @@
 export const UserSettingBaseKey = 'user-setting';
 
 export enum UserSettingRouteKey {
-  Profile = 'profile',
-  Password = 'password',
+  // Profile = 'profile',
+  // Password = 'password',
   Model = 'model',
-  System = 'system',
-  Api = 'api',
+  // System = 'system',
+  // Api = 'api',
   Team = 'team',
   Logout = 'logout',
 }
@@ -56,7 +56,7 @@ export const IconMap = {
   Upstage: 'upstage',
   'novita.ai': 'novita-ai',
   SILICONFLOW: 'siliconflow',
-  'PPIO': 'ppio',
+  PPIO: 'ppio',
   '01.AI': 'yi',
   Replicate: 'replicate',
   'Tencent Hunyuan': 'hunyuan',

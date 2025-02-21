@@ -42,12 +42,12 @@ export const fileIconMap = {
 export const LanguageList = [
   'English',
   'Chinese',
-  'Traditional Chinese',
-  'Indonesia',
-  'Spanish',
-  'Vietnamese',
-  'Japanese',
-  'Portuguese BR',
+  // 'Traditional Chinese',
+  // 'Indonesia',
+  // 'Spanish',
+  // 'Vietnamese',
+  // 'Japanese',
+  // 'Portuguese BR',
 ];
 
 export const LanguageMap = {

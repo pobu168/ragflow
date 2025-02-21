@@ -235,6 +235,7 @@ const Chat = () => {
     <Flex className={styles.chatWrapper}>
       <Flex className={styles.chatAppWrapper}>
         <Flex flex={1} vertical>
+          {/* style={{ visibility: 'hidden' }} */}
           <Button type="primary" onClick={handleShowChatConfigurationModal()}>
             {t('createAssistant')}
           </Button>

@@ -9,13 +9,13 @@ export default defineConfig({
   outputPath: 'dist',
   alias: { '@parent': path.resolve(__dirname, '../') },
   npmClient: 'npm',
-  base: '/',
+  base: '/knowledge/',
   routes,
-  publicPath: '/',
+  publicPath: '/knowledge/',
   esbuildMinifyIIFE: true,
   icons: {},
   hash: true,
-  favicons: ['/logo.svg'],
+  favicons: ['/knowledge/logo.svg'],
   clickToComponent: {},
   history: {
     type: 'browser',
@@ -38,7 +38,7 @@ export default defineConfig({
   proxy: [
     {
       context: ['/api', '/v1'],
-      target: 'http://127.0.0.1:9380/',
+      target: 'https://weworld-oa-sit.test.webank.com/knowledge/',
       changeOrigin: true,
       ws: true,
       logger: console,

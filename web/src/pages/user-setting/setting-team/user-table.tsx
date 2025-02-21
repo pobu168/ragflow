@@ -26,11 +26,11 @@ const UserTable = () => {
       dataIndex: 'nickname',
       key: 'nickname',
     },
-    {
-      title: t('setting.email'),
-      dataIndex: 'email',
-      key: 'email',
-    },
+    // {
+    //   title: t('setting.email'),
+    //   dataIndex: 'email',
+    //   key: 'email',
+    // },
     {
       title: t('setting.role'),
       dataIndex: 'role',

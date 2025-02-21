@@ -1,6 +1,4 @@
-import { ReactComponent as ConfigurationIcon } from '@/assets/svg/knowledge-configration.svg';
 import { ReactComponent as DatasetIcon } from '@/assets/svg/knowledge-dataset.svg';
-import { ReactComponent as TestingIcon } from '@/assets/svg/knowledge-testing.svg';
 import {
   useFetchKnowledgeBaseConfiguration,
   useFetchKnowledgeGraph,
@@ -67,16 +65,16 @@ const KnowledgeSidebar = () => {
         KnowledgeRouteKey.Dataset,
         <DatasetIcon />,
       ),
-      getItem(
-        KnowledgeRouteKey.Testing,
-        KnowledgeRouteKey.Testing,
-        <TestingIcon />,
-      ),
-      getItem(
-        KnowledgeRouteKey.Configuration,
-        KnowledgeRouteKey.Configuration,
-        <ConfigurationIcon />,
-      ),
+      // getItem(
+      //   KnowledgeRouteKey.Testing,
+      //   KnowledgeRouteKey.Testing,
+      //   <TestingIcon />,
+      // ),
+      // getItem(
+      //   KnowledgeRouteKey.Configuration,
+      //   KnowledgeRouteKey.Configuration,
+      //   <ConfigurationIcon />,
+      // ),
     ];
 
     if (!isEmpty(data?.graph)) {

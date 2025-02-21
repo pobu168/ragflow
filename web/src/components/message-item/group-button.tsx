@@ -1,15 +1,7 @@
-import { PromptIcon } from '@/assets/icon/Icon';
 import CopyToClipboard from '@/components/copy-to-clipboard';
 import { useSetModalState } from '@/hooks/common-hooks';
 import { IRemoveMessageById } from '@/hooks/logic-hooks';
-import {
-  DeleteOutlined,
-  DislikeOutlined,
-  LikeOutlined,
-  PauseCircleOutlined,
-  SoundOutlined,
-  SyncOutlined,
-} from '@ant-design/icons';
+import { DeleteOutlined, SyncOutlined } from '@ant-design/icons';
 import { Radio, Tooltip } from 'antd';
 import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -54,7 +46,7 @@ export const AssistantGroupButton = ({
         <Radio.Button value="a">
           <CopyToClipboard text={content}></CopyToClipboard>
         </Radio.Button>
-        {showLoudspeaker && (
+        {/* {showLoudspeaker && (
           <Radio.Button value="b" onClick={handleRead}>
             <Tooltip title={t('chat.read')}>
               {isPlaying ? <PauseCircleOutlined /> : <SoundOutlined />}
@@ -76,7 +68,7 @@ export const AssistantGroupButton = ({
           <Radio.Button value="e" onClick={showPromptModal}>
             <PromptIcon style={{ fontSize: '16px' }} />
           </Radio.Button>
-        )}
+        )} */}
       </Radio.Group>
       {visible && (
         <FeedbackModal

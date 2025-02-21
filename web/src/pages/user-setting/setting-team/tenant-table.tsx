@@ -20,11 +20,11 @@ const TenantTable = () => {
       dataIndex: 'nickname',
       key: 'nickname',
     },
-    {
-      title: t('setting.email'),
-      dataIndex: 'email',
-      key: 'email',
-    },
+    // {
+    //   title: t('setting.email'),
+    //   dataIndex: 'email',
+    //   key: 'email',
+    // },
     {
       title: t('setting.updateDate'),
       dataIndex: 'update_date',

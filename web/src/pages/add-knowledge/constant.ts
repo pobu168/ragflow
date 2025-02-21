@@ -2,8 +2,8 @@ import { KnowledgeRouteKey } from '@/constants/knowledge';
 
 export const routeMap = {
   [KnowledgeRouteKey.Dataset]: 'Dataset',
-  [KnowledgeRouteKey.Testing]: 'Retrieval testing',
-  [KnowledgeRouteKey.Configuration]: 'Configuration',
+  // [KnowledgeRouteKey.Testing]: 'Retrieval testing',
+  // [KnowledgeRouteKey.Configuration]: 'Configuration',
 };
 
 export enum KnowledgeDatasetRouteKey {
