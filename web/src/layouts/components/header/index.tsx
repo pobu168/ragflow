@@ -49,7 +49,7 @@ const RagHeader = () => {
   );
 
   const handleLogoClick = useCallback(() => {
-    navigate('/');
+    navigate('/knowledge/');
   }, [navigate]);
 
   return (
