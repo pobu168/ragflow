@@ -25,7 +25,7 @@ const NewDocumentLink = ({
   let nextLink = link;
   const extension = getExtension(documentName);
   if (!link) {
-    nextLink = `/document/${documentId}?ext=${extension}&prefix=${prefix}`;
+    nextLink = `/knowledge/document/${documentId}?ext=${extension}&prefix=${prefix}`;
   }
 
   return (
