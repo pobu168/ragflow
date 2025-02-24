@@ -49,7 +49,7 @@ const RagHeader = () => {
   );
 
   const handleLogoClick = useCallback(() => {
-    navigate('/knowledge/');
+    navigate('/knowledge/knowledge');
   }, [navigate]);
 
   return (
@@ -63,16 +63,14 @@ const RagHeader = () => {
         height: '72px',
       }}
     >
-      <a href={window.location.origin}>
-        <Space size={12} onClick={handleLogoClick}>
-          <img
-            src="/knowledge/logo.svg"
-            alt=""
-            style={{ width: '200px', marginTop: '24px' }}
-          />
-          {/* <span className={styles.appName}>{appConf.appName}</span> */}
-        </Space>
-      </a>
+      <Space size={12}>
+        <img
+          src="/knowledge/logo.svg"
+          alt=""
+          style={{ width: '200px', marginTop: '6px' }}
+        />
+        {/* <span className={styles.appName}>{appConf.appName}</span> */}
+      </Space>
       <Space size={[0, 8]} wrap>
         <Radio.Group
           defaultValue="a"
